@@ -8,9 +8,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
+	<GridView 
+	    android:id="@+id/gridview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:numColumns="4"
+	    android:horizontalSpacing="12dp"
+	    android:verticalSpacing="12dp"
+	    android:paddingTop="12dp"
+	    android:paddingBottom="16dp"
+	    />
 </RelativeLayout>
